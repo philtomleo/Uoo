@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+        <script src="/js/bootstrap.js"></script>
+        <script src="/js/main.js"></script>
+        <script src="/js/utils.js"></script>
+        <link rel="stylesheet" href="/css/bootstrap.css"></link>
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/common.css"></link>
+        <link rel="stylesheet" href="/css/gamePage.css"></link>
+        <title>Uoo</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
+    </head>
+    <body>
+        <main id="submain" class="container clearfix">
+            <section class="palte">
+                <div class="palteBg"></div>
+                <div class="palteBody">
+                    <span onclick="closePalte()"></span>
+                    <h3><img src="/images/download.png"/>下载 : Uoo故事书糖果屋</h3>
+                    <div class="plateB android_download">
+                        <img id="iosImg" src="/home/index/buildQRcode?data=">
+                        <div class="tip-footer">请扫描二维码下载，或 <a href="">直接下载</a></div>
+                    </div>
+                    <div class="plateB ios_download">
+                        <img id="iosImg" src="/home/index/buildQRcode?data=https%3A%2F%2Fitunes.apple.com%2Fapp%2Fid1447219975">
+                        <div class="tip-footer">请扫描二维码下载</div>
+                    </div>
+                </div>
+            </section>
+            <section class="pull-left detailWrap">
+                <div class="detailHead clearfix">
+                    <div class="detailImg pull-left">
+                        <img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20191016/67d4c93a205b0df6a6addd168f9833db.png" class="img-responsive">
+                    </div>
+                    <div class="detailInfo pull-left">
+                        <h2 class="multiline">Uoo故事书糖果屋</h2>
+                        <p class="ell">逆境中沉着脱困的兄妹</p>
+                        <div class="detailBtnGroup">
+                            <div class="mobileBtn">
+                                <a href="javascript:;" class="downloadApp">获取</a>
+                            </div>
+                            <a href="javascript:;" onclick="showQrcode('and')" class="and"><i></i>下载</a>
+                            <a href="javascript:;"  onclick="showQrcode('ios')" class="ios"><i></i>下载</a>
+                        </div>
+                        <span class="number">4+</span>
+                    </div>
+                </div>
+        
+                <div class="detailRead">
+                    <div class="swiper-wrapper">
+                        <div class="detailItem swiper-slide"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20191016/56f7e08d9cc959f3f02750181fb6e3dc.jpg" class="img-responsive"></div>
+                        <div class="detailItem swiper-slide"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20191016/96ae21d1de8e5abfa712f5c0b1b33df8.jpg" class="img-responsive"></div>
+                        <div class="detailItem swiper-slide"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20191016/e355221a6432ecd14e864a658e8e2c06.jpg" class="img-responsive"></div>
+                        <div class="detailItem swiper-slide"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20191016/8270dec6035e3c8d3f2729e6e38838a9.jpg" class="img-responsive"></div>
+                        <div class="detailItem swiper-slide"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20191016/e6f2750137f2ffd6c9db23254553c710.jpg" class="img-responsive"></div>
+                    </div>
+                </div>
+                <div class="swiper-scrollbar" style="cursor:all-scroll"></div>    
+                <ul class="introduce">
+                    <li class="introduceItem" style="margin-top: 10px;">
+                        <h3>应用介绍</h3>
+                        <div class="introduceText">
+                            格林童话——《糖果屋》以3D立体书的形式向孩子呈现，并且获得了很高的奖项。书内配有美妙的音乐，其文字内容则由专业人员配音讲述，英、法、德等7种语言随意切换。孩子可以听故事，玩益智的拼图和贴纸游戏，仿佛置身于童话故事里，让整个游戏变得栩栩如生。
+                        </div>
+                        <span>更多</span>
+                    </li>
+                    <li class="introduceItem">
+                        <h3>更新说明</h3>
+                        <div class="introduceText">
+                            <p>无</p>
+                        </div>
+                        <span>更多</span>
+                    </li>
+                </ul>
+                <div class="news">
+                    <h3>信息</h3>
+                    <div class="newsList">
+                        <div class="clearfix newsItem">
+                        <span class="pull-left newsLabel">销售商</span>
+                        <p class="pull-right newsText">SmartGames Limited</p>
+                    </div>
+                    <div class="clearfix newsItem">
+                        <span class="pull-left newsLabel">大小</span>
+                        <p class="pull-right newsText">158.8MB</p>
+                    </div>
+                    <div class="clearfix newsItem">
+                        <span class="pull-left newsLabel">类别</span>
+                        <p class="pull-right newsText">教育</p>
+                    </div>
+                    <div class="clearfix newsItem">
+                        <span class="pull-left newsLabel">语言</span>
+                        <p class="pull-right newsText">德文、意大利文、法文、简体中文、英文、西班牙文、韩文</p>
+                    </div>
+                    <div class="clearfix newsItem">
+                        <span class="pull-left newsLabel">版权</span>
+                        <p class="pull-right newsText">© SmartGames Ltd.</p>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pull-right detailList">
+                <h3 class="detailListTitle detail_more_dot">相关推荐<a href="/Products.html"></a></h3>
+                <ul class="detailListUl">
+                    <li class="clearfix" onclick="window.open('/Home/Product/detail?id=41')">
+                        <div class="pull-left dimg"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20191015/5291ee947fb2354a8857dadae96fa73b.png" class="img-responsive"></div>
+                        <div class="pull-left ddd">
+                            <h3 class="ell">毛毛虫幼儿园</h3>
+                            <p class="ell">儿童益智启蒙早教大全</p>
+                        </div>
+                    </li>
+                    <li class="clearfix" onclick="window.open('/Home/Product/detail?id=75')">
+                        <div class="pull-left dimg"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20200117/9dd0ef267f66e5c1e1180324bc5d0b14.png" class="img-responsive"></div>
+                        <div class="pull-left ddd">
+                            <h3 class="ell">米菲的世界</h3>
+                            <p class="ell"></p>
+                        </div>
+                    </li>
+                    <li class="clearfix" onclick="window.open('/Home/Product/detail?id=69')">
+                        <div class="pull-left dimg"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20191016/aa0008c80b903b7e24f99997e7b00e8f.png" class="img-responsive"></div>
+                        <div class="pull-left ddd">
+                            <h3 class="ell">Uoo故事书小红帽</h3>
+                            <p class="ell"></p>
+                        </div>
+                    </li>
+                    <li class="clearfix" onclick="window.open('/Home/Product/detail?id=71')">
+                        <div class="pull-left dimg"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20191016/208693337644e055aca76d3e35f2af78.png" class="img-responsive"></div>
+                        <div class="pull-left ddd">
+                            <h3 class="ell">毛毛虫之探索与发现</h3>
+                            <p class="ell"></p>
+                        </div>
+                    </li>
+                    <li class="clearfix" onclick="window.open('/Home/Product/detail?id=74')">
+                        <div class="pull-left dimg"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20191016/e87867c92075c1cc4674aa8150e1d6b3.png" class="img-responsive"></div>
+                        <div class="pull-left ddd">
+                            <h3 class="ell">Uoo故事书长发公主</h3>
+                            <p class="ell"></p>
+                        </div>
+                    </li>
+                    <li class="clearfix" onclick="window.open('/Home/Product/detail?id=82')">
+                        <div class="pull-left dimg"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20191016/770668bbec87dc74fb666a80a845264d.png" class="img-responsive"></div>
+                        <div class="pull-left ddd">
+                            <h3 class="ell">毛毛虫绘本</h3>
+                            <p class="ell"></p>
+                        </div>
+                    </li>
+                    <li class="clearfix" onclick="window.open('/Home/Product/detail?id=85')">
+                        <div class="pull-left dimg"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20191016/99f1f0d3c5d4aba24521314a84e63125.png" class="img-responsive"></div>
+                        <div class="pull-left ddd">
+                            <h3 class="ell">小皮大世界</h3>
+                            <p class="ell"></p>
+                        </div>
+                    </li>
+                    <li class="clearfix" onclick="window.open('/Home/Product/detail?id=87')">
+                        <div class="pull-left dimg"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20191016/67d4c93a205b0df6a6addd168f9833db.png" class="img-responsive"></div>
+                        <div class="pull-left ddd">
+                            <h3 class="ell">Uoo故事书糖果屋</h3>
+                            <p class="ell"></p>
+                        </div>
+                    </li>
+                    <li class="more">
+                        <a href="/Products.html">更多 >></a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        
+        <footer id="footer" class="text-center">
+            <p><a target="_self" href="https://www.sgstudios.cn:13000/termsofservice">《隐私权政策》</a></p>
+            <p>适龄提示 ： 2周岁以上儿童使用，需要未成年人家长监护</p>
+            <p>网站首页网址 ：&nbsp;<a target="_self" href="http://www.sdcomm.cn/">http://www.sdcomm.cn</a>&nbsp; 联系方式 ： 010-64701980 / info@sgstudios.cn</p>
+            <p>沪网文（2018）10462—641号&nbsp; 网站备案许可号：沪ICP备19003040号-1&nbsp;&nbsp;</p>
+            <p>备案许可证号：沪ICP备19003040号&nbsp; 增值电信业务许可证编号：沪B2—20190071</p>
+        </footer>
+    </body>
+
+    <script type="text/javascript">
+        function closePalte(){
+            $('.palte').hide()
+        }
+        function showQrcode(s){
+            if(s == 'and'){
+                $('.android_download').show();
+                $('.ios_download').hide();
+            }else{
+                $('.ios_download').show();
+                $('.android_download').hide();
+            }
+            $('.palte').show()
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(function(){
+            setTimeout(function(){
+                new Swiper('.detailRead', {
+                    slidesPerView : 'auto',
+                    freeMode : true,
+                    resistanceRatio : 0,
+                    freeModeMomentumBounce : false,
+                    freeModeMomentumBounceRatio : 0,
+                    scrollbar: {
+                    el: '.swiper-scrollbar',
+                    draggable:true,
+                    },
+                    on : {
+                        touchStart: function(event){
+                            $('.detailVideo').each(function (index, cur){
+                                if (!$(cur).find('video').get(0).paused){
+                                    var video = $(cur).find('video').attr('src');
+                                    var img = $(cur).find('video').attr('poster');
+                                    $(cur).find('video').remove();
+                                    $(cur).append('<video poster="'+ img +'" controlsList="nodownload" src="'+ video +'" controls></video>')
+                                }
+                            });
+                        },
+                        touchEnd: function(event){
+                        },
+                    }
+                });
+            },1000);
+
+            $('.introduceItem span').on('click', function (){
+                var _that = $(this);
+                var text = _that.parent().find('.introduceText');
+
+                if(!text.is('.show')){
+                    text.addClass('show');
+                    _that.hide();
+                }
+            });
+            // 更多訊息
+            $('.introduceText').each(function (index, cur){
+                if($(cur).height() <= 72){
+                    $(cur).next('span').hide()
+                }
+            })
+            // 判斷用戶機型
+            $(".downloadApp").click(function(){
+                var u = navigator.userAgent;
+                if (u.indexOf('Android') > -1 || u.indexOf('Linux') > -1) {
+                    window.location.href="";
+                } else if (u.indexOf('iPhone') > -1) {
+                    window.location.href="https://itunes.apple.com/app/id1447219975";
+                } else {
+                    window.location.href="";
+                }
+            })
+        })
+    </script>
+</html>

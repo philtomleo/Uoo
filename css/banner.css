@@ -1,0 +1,41 @@
+.banner-pic {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mobile-banner {
+    display: none;
+}
+
+.banner-log {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    width: 150px;
+    height: 75px;
+}
+
+.swiper-banner .swiper-button-prev {
+    left: 10%;
+    background: none;
+}
+
+.swiper-banner .swiper-button-next {
+    right: 10%;
+    background: none;
+}
+
+.swiper-banner .swiper-button-prev img, .swiper-banner .swiper-button-next img {
+    height: 100%;
+}
+
+@media (max-width: 750px) {
+    .swiper-banner .swiper-button-next,.swiper-banner .swiper-button-prev{display: none;}
+    .banner-log{position: absolute;bottom: 25px;right: 20px;width: 100px;height: 50px;background-color: red;}
+    .pc-banner{ display:none;}
+    .mobile-banner{ display:block;}
+}

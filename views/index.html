@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+        <script src="/js/bootstrap.js"></script>
+        <script src="/js/main.js"></script>
+        <link rel="stylesheet" href="/css/bootstrap.css"></link>
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/index.css"></link>
+        <link rel="stylesheet" href="/css/common.css"></link>
+        <link rel="stylesheet" href="/css/banner.css"></link>
+        <title>Uoo</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
+    </head>
+    <body>
+        <!-- <%- include nav.html %> -->
+        <div class="nav-bigbox">
+            <div class="nav">
+                <div class="nav-btn"></div>
+                <div class="nav-list">
+                    <ul>
+                        <li><a href="/views/index.html">首页</a></li>
+                        <li><a href="/views/Products.html">我们的产品</a></li>
+                        <li><a href="/views/index.html?point=3">我们的伙伴</a></li>
+                        <li><a href="/views/about.html">关于SG</a></li>
+                        <li><a href="/views/index.html?point=5">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="language">
+               <ul>
+                    <li class="act"><a onclick="jump('zh-cn')">简体中文</a></li>
+                    <li><a onclick="jump('ge-un')">繁體中文</a></li>
+                    <li><a onclick="jump('en-us')">English</a></li>
+               </ul>
+            </div>
+        </div>
+        <div class="swiper-container swiper-h">
+            <div class="swiper-wrapper">
+                <div id="index001" class="swiper-slide">
+                    <div class="contain">
+                        <div class="brand-bg">
+                            <img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/61a2bcfb37dedc01d81f6290f18fa261.png">
+                        </div>
+                        <div class="uoo-brand">
+                            <img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/dbe3af75b485188dbdf2f9a465197fd0.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="index002" class="swiper-slide">
+                    <div class="swiper-container swiper-banner">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a target="_blank" class="banner-pic pc-banner" style="background-image:url(http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/e63223eb4bbe1236f2deb97906398524.jpg);"></a>
+                                <a target="_blank" class="banner-pic mobile-banner" style="background-image:url(http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/4f54364a5bb4224b21837e912d58a76e.jpg);"></a>
+                                <div class="banner-log">
+                                    <img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/ac5ffb7366cdf94912c32d171d9fc1be.jpg">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a target="_blank" class="banner-pic pc-banner" style="background-image:url(http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/30eb745c19c0b4445e6f17db5e6b4fdc.jpg);"></a>
+                                <a target="_blank" class="banner-pic mobile-banner" style="background-image:url(http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/93a8e9cefaba0998c21760c5a3b782e9.jpg);"></a>
+                                <div class="banner-log">
+                                    <img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/ac5ffb7366cdf94912c32d171d9fc1be.jpg">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a target="_blank" class="banner-pic pc-banner" style="background-image:url(http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/16483bb7a9921d57d494a7830d79bb85.jpg);"></a>
+                                <a target="_blank" class="banner-pic mobile-banner" style="background-image:url(http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/d7d7878a9b91f6007d4a6ef44815fdc1.jpg);"></a>
+                                <div class="banner-log">
+                                    <img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/ac5ffb7366cdf94912c32d171d9fc1be.jpg">
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <a target="_blank" class="banner-pic pc-banner" style="background-image:url(http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/1b61dfbbacb523a7de820e0aa0ca9c7d.jpg);"></a>
+                                <a target="_blank" class="banner-pic mobile-banner" style="background-image:url(http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/5b00633110d03de07b246c8ca85a1ec7.jpg);"></a>
+                                <div class="banner-log">
+                                    <img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/ac5ffb7366cdf94912c32d171d9fc1be.jpg">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a target="_blank" class="banner-pic pc-banner" style="background-image:url(http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/80ddfd16ed0f5b4a62361ad5d596e67a.jpg);"></a>
+                                <a target="_blank" class="banner-pic mobile-banner" style="background-image:url(http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/fc560ae90a35de3f38017906f458b2ee.jpg);"></a>
+                                <div class="banner-log">
+                                    <img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181219/ac5ffb7366cdf94912c32d171d9fc1be.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination swiper-pagination-banner"></div>
+                        <div class="swiper-button-next"><img src="/images/right.png"></div>
+                        <div class="swiper-button-prev"><img src="/images/left.png"></div>
+                    </div>
+                </div>
+
+                <div id="index003" class="swiper-slide">
+                    <a href="/Products.html">
+                        <div class="pc-slidepic"></div>
+                        <div class="mb-slidepic"></div>
+                    </a>
+                    <div class="contain"><a href="/Products.html"></a>
+                        <div class="uoo-product"><a href="/Products.html"></a>
+                            <div class="title"><a href="/Products.html"></a>
+                            <a href="/Products.html"><span>Products</span><em>我们的产品</em></a>             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="index004" class="swiper-slide">
+                    <div class="contain">
+                        <div class="uoo-client">
+                            <div class="title">
+                              <a href="javascript:;">
+                                <span>Partners</span>
+                                <em><p>我们很荣幸与以下企业合作</p></em>
+                              </a>
+                            </div>
+                            <div class="client-list">
+                               <ul>
+                                    <li><a target="_blank" href="https://www.babytree.com"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/3fbc9f0032aeca262e1931a7aa2d016d.jpg"></a></li>
+                                    <li><a target="_blank" href="https://www.bbtree.com"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/a5f16e28942019c06f9e6b89e21e3be1.jpg"></a></li>
+                                    <li><a target="_blank" href="http://g.beva.com/"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/a9ec42eaf347944be828c057a2a6cdc5.jpg"></a></li>
+                                    <li><a target="_blank"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/093f63ca3dd927f2967659a2042f22cd.jpg"></a></li>
+                                    <li><a target="_blank"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/c8007f983d3c8b27cee9a6f81326c55c.jpg"></a></li>
+                                    <li><a target="_blank" href="http://new.ctv.com.tw/"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/faf4bc62832c10fac8d2629da1e0abae.jpg"></a></li>
+                                    <li><a target="_blank" href="https://www.fun.tv"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/b8592e6a84d9c0c382a4f84c7f628b12.jpg"></a></li>
+                                    <li><a target="_blank" href="https://www.iqiyi.com"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/dc7a0bb3559c1bc08aa9d1725c807ab6.jpg"></a></li>
+                                    <li><a target="_blank" href="https://kada.hhdd.com/"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/9c483313831fab0eece98ae1ca185eb8.jpg"></a></li>
+                                    <li><a target="_blank" href="https://www.knsh.com.tw"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/308cf2e04d596fece718d4bbe19366a0.jpg"></a></li>
+                                    <li><a target="_blank" href="http://https://www.migu.cn/video.html"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/a8ef76939486e764ba935bc296d9424d.jpg"></a></li>
+                                    <li><a target="_blank" href="https://www.momokids.com.tw"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/2e7a34e8f28cac8e1244f94f3b53888d.jpg"></a></li>
+                                    <li><a target="_blank" href="https://g.opg.cn/index.php"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/e3a4fa16cb4e75d726a424b73ba0ed12.jpg"></a></li>
+                                    <li><a target="_blank" href="https://www.pptv.com"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/af2239146fd291ed97d29554270344bb.jpg"></a></li>
+                                    <li><a target="_blank" href="https://www.sdcomm.cn"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/a6d80994abf4be25815479c9ddd2f3bc.jpg"></a></li>
+                                    <li><a target="_blank" href="https://v.qq.com"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/5f369f286b1f40dd79b73d7755e8a9a4.jpg"></a></li>
+                                    <li><a target="_blank" href="https://pressroom.hotaimotor.com.tw/zh/ "><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/c9111a84a6e6b595fc8c9f64b4b11b7b.jpg"></a></li>
+                                    <li><a target="_blank" href="https://www.wasu.cn"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/67f81bc15c61b66e50445791504513d4.jpg"></a></li>
+                                    <li><a target="_blank" href="https://www.youku.com"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/e6a037bbd309ff4d641c4bc47306f450.jpg"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="index005" class="swiper-slide">
+                    <div class="contain">
+                        <div class="uoo-client clearfix">
+                            <div class="client-left float-left">
+                            <div class="title">
+                                <a href="/about.html"><span>SG</span><em>关于SG</em></a>
+                                </div>
+                                <a href="/about.html"><div class="client-txt"><p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;SG studios一家专业从事寓教于乐的儿童多媒体内容落地运营及输出的公司，我们在大中华区制作、授权和输出全球最优质的儿童内容。</span></p></div></a>
+                            </div>
+                            <div class="ff-pic float-right">
+                                <a href="/about.html">
+                                    <img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181214/5efe6155567f6f654a6a54b89876154e.png">
+                                </a>	
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="index006" class="swiper-slide">
+                    <div class="gotop"><i></i><span>TOP</span></div>
+                    <div class="contain">
+                        <div class="contact">
+                            <div class="other-title">
+                                <span>联系我们</span>
+                                <p>Contact us</p>
+                            </div>
+                            <div class="contact-con">
+                                <form method="post">
+                                    <div class="contact-form float-left">
+                                        <div class="form-cell"><input name="title" id="title" type="text" placeholder="您的姓名" class="int-name"></div>
+                                        <div class="form-cell"><input name="email" id="email" type="text" placeholder="您的邮箱" class="int-email"></div>
+                                        <div class="form-cell"><textarea name="content" id="content" cols="" rows="" class="int-massge"></textarea></div>
+                                        <div class="sumbtn text-right"><button type="button" class="send">提交</button></div>
+                                    </div>
+                                </form>
+                                <div class="contact-wc float-right">
+                                    <div class="wc-int">
+                                        <div class="wc-pic"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181210/5ca504110dff9322f9c581327b5f7c55.jpg"></div>
+                                        <p><em>官方微信</em></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer footer_pc">
+                        <p>
+                            <a target="_blank" href="https://www.sgstudios.cn:13000/termsofservice">《隱私權政策》</a>
+                        </p>
+                        <p>適齡提示 ： 2周歲以上兒童使用，需要未成年人家長監護</p>
+                        <p>網站首頁網址 ：<a target="_blank" href="http://www.sdcomm.cn/">&nbsp;http://www.sdcomm.cn</a>&nbsp; 聯繫方式 ： 010-64701980 / info@sgstudios.cn</p>
+                        <p>沪网文（2018）10462—641号&nbsp; 网站备案许可号：沪ICP备19003040号-1&nbsp;&nbsp;</p>
+                        <p>备案许可证号：沪ICP备19003040号&nbsp; 增值电信业务许可证编号：沪B2—20190071</p>
+                    </div>
+                    <div class="footer footer_mobile">
+                        <p>沪网文（2018）10462—641号 网站备案许可号：沪ICP备19003040号-1&nbsp; 备案许可证号：沪ICP备19003040号</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination swiper-pagination-h"></div>
+        </div>
+        <script>
+            var swiper = new Swiper('.swiper-h', {
+            direction: 'vertical',
+            mousewheel: {
+                invert: false,
+            },
+            pagination: {
+                el: '.swiper-pagination-h',
+                clickable: true,
+            },
+            });
+            $(function(){
+                $(".gotop").on('click',function(){
+                    swiper.slideTo(0,600, false);
+                });
+            });
+
+            var swiper2 = new Swiper('.swiper-banner', {
+                spaceBetween: 0,
+                centeredSlides: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination-banner',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+
+            var path = location.pathname;
+            var search = location.search;
+            if(path=="/views/index.html"){
+                if(search == "?point=3"){
+                    jumpSwiper(3);
+                }else if (search == "?point=5"){
+                    jumpSwiper(5);
+                }
+            }
+            function jumpSwiper(index){
+                swiper.slideTo(index,600, false)
+            }
+        </script>
+
+        <script type="text/javascript">
+            $('.send').click(function() {
+                $('.toast').toast('show');
+
+                var title=$('#title').val();
+                var email=$('#email').val();
+                var content=$('#content').val();
+                var mailReg = /^(\w-*\.*)+@(\w-?)+(\.\w{2,})+$/;
+                if(title==''){
+                    layer.msg(" 请填写您的姓名");
+                    return false;
+                }
+                if(email==''){
+                    layer.msg("填写您的邮箱地址");
+                    return false;
+                }
+                if(!mailReg.test(email)){
+                    layer.msg("邮箱格式出错");
+                    return false;
+                }
+                if(content==''){
+                    layer.msg("请填写您的留言");
+                    return false;
+                }
+
+                // $.ajax({
+                // 	url: '/Home/index/message/lang/zh-cn.html',
+                // 	type: 'POST',
+                // 	dataType: 'json',
+                // 	data: $('#frn_submit').serialize(),
+                // 	success: function(res){
+                // 		if(res.errorCode == '0'){
+                // 			layer.msg(res.msg);
+                // 			setTimeout(function(){
+                //       window.location.href = "/Home/index/index/lang/zh-cn.html";
+                //   },1000);
+                // 		}else{
+                // 			layer.msg(res.msg);
+                // 			return false;
+                // 		}
+                // 	}
+                // })
+            });
+        </script>
+
+    </body>
+</html>

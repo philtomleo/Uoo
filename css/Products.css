@@ -1,0 +1,275 @@
+#header {
+    border-bottom: 2px solid #f0f0f0;
+    position: relative;
+}
+
+.bannerBtnLeft {
+    background: url(/images/arrow-left.png) no-repeat center;
+    left: 250px;
+}
+
+.bannerBtnRight {
+    background: url(/images/arrow-right.png) no-repeat center;
+    right: 250px;
+}
+
+.bannerBtn {
+    width: 14px;
+    height: 44px;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    margin-top: -22px;
+}
+
+#pcBanner{
+	height: 520px;
+	overflow: hidden;
+	position: relative;
+}
+
+#mobileBanner{
+	width: 100%;
+	overflow: hidden;
+	display: none;
+}
+
+#pcBanner .swiper-wrapper,
+#pcBanner .swiper-slide{
+	height: 520px;
+	width: 100%;
+}
+
+#pcBanner .swiper-slide a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#main {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.productItem {
+    margin-top: 15px;
+}
+
+.productImg {
+    width: 106px;
+    height: 106px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #dfdfdf;
+}
+
+.productInfo {
+    margin-left: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cdced2;
+    width: calc(100% - 121px);
+    position: relative;
+}
+
+.productInfo h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #636363;
+    width: 70%;
+    margin-bottom: 16px;
+    margin-top: 28px;
+    letter-spacing: 1px;
+}
+
+.ell {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.productInfo p {
+    font-size: 14px;
+    width: 70%;
+    height: 40px;
+    line-height: 20px;
+    color: #808080;
+}
+
+.productInfo > a {
+    display: inline-block;
+    position: absolute;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 26px;
+    font-size: 15px;
+    color: #3478f6;
+    font-weight: bold;
+    background: #ededed;
+    border-radius: 36px;
+    right: 10px;
+    top: 50%;
+    margin-top: -23px;
+}
+
+.descr {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: initial;
+}
+
+#footer {
+    background: #4e4e4e;
+    padding: 15px 0;
+}
+
+#footer p {
+    margin: 0;
+    line-height: 30px;
+    color: #b1b0b0;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+#footer p span, #footer p a {
+    color: #fff;
+}
+
+.bannerInfo {
+    width: 380px;
+    display: none;
+    height: 460px;
+    background: rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    right: 300px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 30px;
+    z-index: 50;
+}
+
+.bannerInfoImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 14px;
+    overflow: hidden;
+    margin: 0 auto 40px;
+}
+
+.bannerInfo h3 {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.banner-detail {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    max-height: 120px;
+    overflow: hidden;
+}
+
+.bannerInfo a {
+    display: inline-block;
+    font-size: 16px;
+    color: #3478f6;
+    background: #fff;
+    line-height: 38px;
+    border-radius: 38px;
+    padding: 0 24px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.language {
+    right: 20px;
+    top: 20px;
+}
+
+@media screen and (min-width: 1200px){
+    #header:hover .bannerInfo {
+        display: block;
+    }
+}
+@media screen and (max-width: 1200px){
+    .bannerInfo {
+        display: none;
+    }
+}
+ 
+@media (max-width:750px){
+    #pcBanner{
+		display: none;
+	}
+
+	#mobileBanner{
+		display: block;
+	}
+
+	.bannerBtn{
+		display: none;
+	}
+
+	.swiper-wrapper,
+	.swiper-slide{
+		height: auto;
+	}
+
+	.bannerInfo{
+		display: none;
+		border-radius: 0;
+		top: 0;
+		right: 0;
+		width: 50%;
+		height: 100%;
+	}
+
+    .productImg{
+		width: 80px;
+		height: 80px;
+		border-radius: 5px;
+	}
+
+	.productInfo{
+		width: calc(100% - 90px);
+		margin-left: 10px;
+		padding-bottom: 4px;
+	}
+
+	.productInfo h4{
+		margin-top: 10px;
+		margin-bottom: 8px;
+		font-size: 16px;
+	}
+
+	.productInfo p{
+		font-size: 13px;
+	}
+
+	.productInfo > a{
+		line-height: 28px;
+		font-size: 13px;
+		height: 26px;
+		padding: 0 15px;
+		right: 0;
+		border-radius: 26px;
+    }
+    
+    #footer p{
+		font-size: 12px;
+		margin: 0 15px;
+		line-height: 22px;
+	}
+
+	#main{
+		padding-bottom: 20px;
+	}
+
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+        <script src="/js/bootstrap.js"></script>
+        <script src="/js/main.js"></script>
+        <link rel="stylesheet" href="/css/bootstrap.css"></link>
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/common.css"></link>
+        <link rel="stylesheet" href="/css/about.css"></link>
+        <title>关于SG_Uoo</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
+    </head>
+    <body>
+        <div class="nav-bigbox">
+            <div class="nav">
+                <div class="nav-btn"></div>
+                <div class="nav-list">
+                    <ul>
+                        <li><a href="/views/index.html">首页</a></li>
+                        <li><a href="/views/Products.html">我们的产品</a></li>
+                        <li><a href="/views/index.html?point=3">我们的伙伴</a></li>
+                        <li><a href="/views/about.html">关于SG</a></li>
+                        <li><a href="/views/index.html?point=5">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="language">
+               <ul>
+                    <li class="act"><a onclick="jump('zh-cn')">简体中文</a></li>
+                    <li><a onclick="jump('ge-un')">繁體中文</a></li>
+                    <li><a onclick="jump('en-us')">English</a></li>
+               </ul>
+            </div>
+        </div>
+
+        <div class="pro-banner"></div>
+        <div class="about">
+            <div class="contain">
+                <div class="p-title">关于SG</div>          	
+                <div class="about-con">
+                  <p>&nbsp; &nbsp; &nbsp; &nbsp;SG studios一家专业从事寓教于乐的儿童多媒体内容落地运营及输出的公司，我们在大中华区制作、授权和输出全球最优质的儿童内容。</p>
+                  <p><br></p>
+                  <p>&nbsp; &nbsp; &nbsp; &nbsp; 我们致力于确保孩子们所看的、所玩的、以及与之产生互动的产品是具有吸引力和充满教育意义的，并且能够帮助孩子们开发认知能力、创造力、独立判断能力，同时养成良好的情绪控制能力。</p>
+                  <p><br></p>
+                  <p>&nbsp; &nbsp; &nbsp; &nbsp; 我们为成为<a href="https://brainchase.com/" target="_blank">Brain Chase</a>, <a href="https://www.havefunteaching.com/" target="_blank">Have Fun Teaching</a>, <a href="https://www.pbs.org/" target="_blank">PBS</a>, <a href="http://www.pbskids.org/" target="_blank">PBS Kids</a>, 和 <a href="https://www.touchpress.com/" target="_blank">Touch Press</a>等世界一流儿童教育公司在大中华区的独家合作伙伴而感到自豪！</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="index006" class="swiper-slide">
+            <div class="gotop"><i></i><span>TOP</span></div>
+            <div class="contain">
+                <div class="contact">
+                    <div class="other-title">
+                        <span>联系我们</span>
+                        <p>Contact us</p>
+                    </div>
+                    <div class="contact-con">
+                        <form method="post">
+                            <div class="contact-form float-left">
+                                <div class="form-cell"><input name="title" id="title" type="text" placeholder="您的姓名" class="int-name"></div>
+                                <div class="form-cell"><input name="email" id="email" type="text" placeholder="您的邮箱" class="int-email"></div>
+                                <div class="form-cell"><textarea name="content" id="content" cols="" rows="" class="int-massge"></textarea></div>
+                                <div class="sumbtn text-right"><button type="button" class="send">提交</button></div>
+                            </div>
+                        </form>
+                        <div class="contact-wc float-right">
+                            <div class="wc-int">
+                                <div class="wc-pic"><img src="http://cn-uoozone-website-sd.oss-cn-beijing.aliyuncs.com/public/uploads/20181210/5ca504110dff9322f9c581327b5f7c55.jpg"></div>
+                                <p><em>官方微信</em></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer" class="text-center">
+            <p><a target="_self" href="https://www.sgstudios.cn:13000/termsofservice">《隐私权政策》</a></p>
+            <p>适龄提示 ： 2周岁以上儿童使用，需要未成年人家长监护</p>
+            <p>网站首页网址 ：&nbsp;<a target="_self" href="http://www.sdcomm.cn/">http://www.sdcomm.cn</a>&nbsp; 联系方式 ： 010-64701980 / info@sgstudios.cn</p><p style="text-align: center;">沪网文（2018）10462—641号&nbsp; 网站备案许可号：沪ICP备19003040号-1&nbsp;&nbsp;</p><p style="text-align: center;">备案许可证号：沪ICP备19003040号&nbsp; 增值电信业务许可证编号：沪B2—20190071</p>
+        </footer>
+
+        <script type="text/javascript">
+            $(function(){
+                var wid=$(window);
+                $(".gotop").on('click',function(){
+                    wid.scrollTop(0);
+                })
+            });
+        </script>
+
+    </body>
+</html>
